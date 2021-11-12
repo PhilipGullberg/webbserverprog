@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Länka till css här-->
+    <link rel="stylesheet" href="style.css">
+    <title>Flow of css</title>
+</head>
+<body>
+    <!-- Börja med att prata om DEFAULT fluidity, ordering och stacking: https://marksheet.io/css-the-flow.html -->
+    <!-- Skapa en navbar -->
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li> <a href="#Contact">Contact</a> </li>
+            <li> <a href="#Shop">Shop</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Skapa en header -->
+    <header>
+        <img src="banner.jpg" alt="banner of computer and coffee">
+        <div class="absolute">
+            <h1 id="heading">This cool webiste has macbooks and coffee</h1>
+            <p id="text">Come join us in this <span id="cooltext">cool company</span></p>
+            <p id="text">We have the best engineers </p>
+            <a href="#shop" class="myButton">SHOP NOW</a>
+        </div>
+    </header>
+
+    <!-- Skapa tre kolumner med flow och width -->
+    <section class="about">
+        <div class="Companyinfo">
+            <h1 class="heading">Our company</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, maxime nobis quaerat ad ipsa suscipit eos deserunt, repellat repellendus asperiores velit amet culpa provident enim optio. Aut id veniam quia?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, maxime nobis quaerat ad ipsa suscipit eos deserunt, repellat repellendus asperiores velit amet culpa provident enim optio. Aut id veniam quia?</p>
+            <a href="#shop" class="myButton">The company</a>
+        </div>
+        <div class="Companyinfo">
+            <h1 class="heading">Our staff</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, maxime nobis quaerat ad ipsa suscipit eos deserunt, repellat repellendus asperiores velit amet culpa provident enim optio. Aut id veniam quia?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, maxime nobis quaerat ad ipsa suscipit eos deserunt, repellat repellendus asperiores velit amet culpa provident enim optio. Aut id veniam quia?</p>
+            <a href="#shop" class="myButton">See our staff</a>
+        </div>
+        <div class="Companyinfo">
+            <h1 class="heading">Our mission</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, maxime nobis quaerat ad ipsa suscipit eos deserunt, repellat repellendus asperiores velit amet culpa provident enim optio. Aut id veniam quia?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, maxime nobis quaerat ad ipsa suscipit eos deserunt, repellat repellendus asperiores velit amet culpa provident enim optio. Aut id veniam quia?</p>
+            <a href="#shop" class="myButton">See our mission</a>
+        </div>
+    </section>
+    <!-- Skapa en footer här -->
+</body>
+</html>
